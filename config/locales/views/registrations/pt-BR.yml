@@ -1,0 +1,16 @@
+---
+pt-BR:
+  helpers:
+    label:
+      user:
+        invite_code: Código de Convite
+    submit:
+      user:
+        create: Continuar
+  registrations:
+    create:
+      failure: Entrada inválida, por favor, tente novamente.
+      invalid_invite_code: Código de convite inválido, por favor, tente novamente.
+      success: Você se cadastrou com sucesso.
+    new:
+      title: Criar uma conta

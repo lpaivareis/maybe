@@ -1,0 +1,16 @@
+---
+pt-BR:
+  layouts:
+    auth:
+      or: ou
+      privacy_policy: Política de Privacidade
+      sign_in: entrar na sua conta
+      sign_up: criar uma conta
+      terms_of_service: Termos de Serviço
+      your_account: Sua conta
+    sidebar:
+      accounts: Contas
+      dashboard: Painel de Controle
+      new_account: Nova conta
+      portfolio: Portfólio
+      transactions: Transações

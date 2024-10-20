@@ -1,0 +1,12 @@
+---
+pt-br:
+  transaction:
+    default_category:
+      auto_and_transport: Automóvel e Transporte
+      entertainment: Entretenimento
+      food_and_drink: Comida e Bebida
+      general_services: Serviços Gerais
+      home_improvement: Melhorias Domésticas
+      income: Renda
+      personal_care: Cuidados Pessoais
+      rent_and_utilities: Aluguel e Utilidades

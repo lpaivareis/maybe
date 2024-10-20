@@ -1,0 +1,7 @@
+---
+pt-br:
+  account:
+    transfer:
+      from_fallback_name: Originador
+      name: Transferência de %{from_account} para %{to_account}
+      to_fallback_name: Receptor

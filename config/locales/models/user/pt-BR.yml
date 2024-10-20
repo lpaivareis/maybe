@@ -1,0 +1,16 @@
+---
+en:
+  activerecord:
+    attributes:
+      user:
+        email: Email
+        family: Family
+        family_id: Family
+        first_name: First Name
+        last_name: Last Name
+        password: Password
+        password_confirmation: Password Confirmation
+    errors:
+      user:
+        cannot_deactivate_admin_with_other_users: Admin cannot delete account while
+          other users are present. Please delete all members first.

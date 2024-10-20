@@ -1,0 +1,22 @@
+---
+pt-BR:
+  pages:
+    changelog:
+      title: O que há de novo
+    dashboard:
+      allocation_chart:
+        assets: Ativos
+        debts: Dívidas
+      categories: Categorias
+      greeting: Bem-vindo de volta, %{name}
+      income: Renda
+      investing: Investimentos (em breve...)
+      net_worth: Patrimônio Líquido
+      new: Nova conta
+      no_transactions: Você não possui transações recentes
+      recurring: Recorrente
+      savings_rate: Taxa de Poupança
+      spending: Gastos
+      subtitle: Veja o que está acontecendo hoje
+      transactions: Transações
+      view_all: Ver tudo

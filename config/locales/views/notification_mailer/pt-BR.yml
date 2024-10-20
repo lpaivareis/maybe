@@ -1,0 +1,6 @@
+---
+pt-BR:
+  notification_mailer:
+    test_email:
+      test_email_body: Parabéns! A conexão com o servidor SMTP está configurada corretamente.
+      test_email_subject: Configurações SMTP verificadas!

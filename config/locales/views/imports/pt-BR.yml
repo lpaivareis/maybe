@@ -1,0 +1,104 @@
+---
+pt-BR:
+  imports:
+    clean:
+      clean_and_edit: Limpar e editar seus dados
+      clean_description: Edite suas transações na tabela abaixo. Clique em qualquer célula
+        para alterar a data, nome, categoria ou valor.
+      clean_import: Importação limpa
+      invalid_csv: Por favor, carregue um arquivo CSV primeiro
+    configure:
+      configure_description: Selecione as colunas que correspondem aos campos de dados necessários,
+        para que as colunas do seu CSV possam ser mapeadas corretamente com o nosso formato.
+      configure_subtitle: Configurar seu arquivo CSV
+      configure_title: Configurar importação
+      confirm_accept: Alterar mapeamentos
+      confirm_body: Alterar seus mapeamentos pode apagar quaisquer edições que você tenha feito no
+        CSV até agora.
+      confirm_title: Tem certeza?
+      invalid_csv: Por favor, carregue um arquivo CSV primeiro
+      next: Próximo
+      optional: "(opcional) Nenhuma coluna selecionada"
+    confirm:
+      confirm_description: Visualize suas transações abaixo e verifique se há alguma alteração
+        necessária.
+      confirm_subtitle: Confirmar suas transações
+      confirm_title: Confirmar importação
+      invalid_data: Você possui dados inválidos, corrija antes de continuar
+    create:
+      import_created: Importação criada
+    csv_paste:
+      confirm_accept: Sim, começar de novo!
+      confirm_body: Isso irá redefinir sua importação. Quaisquer alterações que você tenha feito no
+        CSV serão apagadas.
+      confirm_title: Tem certeza?
+      instructions: Seu CSV deve ter as seguintes colunas e formatos para a melhor experiência de importação.
+      next: Próximo
+      requirement1: As datas devem estar no formato ISO 8601 (AAAA-MM-DD)
+      requirement2: Transação negativa é uma "saída" (despesa), positiva é uma "entrada" (receita)
+      requirement3: Pode ter 0 ou mais tags separadas por |
+    csv_upload:
+      confirm_accept: Sim, começar de novo!
+      confirm_body: Isso irá redefinir sua importação. Quaisquer alterações que você tenha feito no
+        CSV serão apagadas.
+      confirm_title: Tem certeza?
+      instructions: O arquivo CSV deve estar no formato abaixo. Você também pode reutilizar e
+      next: Próximo
+    destroy:
+      import_destroyed: Importação destruída
+    edit:
+      description_text: A importação de transações só pode ser feita para uma conta de cada vez.
+        Você precisará passar por esse processo novamente para outras contas.
+      edit_title: Editar importação
+      header_text: Selecione a conta à qual suas transações pertencerão
+    empty:
+      message: Nenhuma importação para mostrar
+      new: Nova importação
+    form:
+      account: Conta
+      next: Próximo
+      select_account: Selecionar conta
+    import:
+      complete: Completo
+      completed_on: Concluído em %{datetime}
+      delete: Excluir
+      edit: Editar
+      failed: Falhou
+      in_progress: Em progresso
+      label: 'Importação para: %{account}'
+      started_on: Iniciado em %{datetime}
+      uploading: Processando linhas
+    index:
+      imports: Importações
+      new: Nova importação
+      title: Importações
+    load:
+      description: Crie uma planilha ou faça o upload de um CSV exportado de sua instituição financeira.
+      load_title: Carregar importação
+      subtitle: Importe suas transações
+    load_csv:
+      import_loaded: CSV da importação carregado
+    new:
+      description_text: A importação de transações só pode ser feita para uma conta de cada vez.
+        Você precisará passar por esse processo novamente para outras contas.
+      header_text: Selecione a conta à qual suas transações pertencerão
+    publish:
+      import_published: A importação foi iniciada em segundo plano
+      invalid_data: Sua importação é inválida
+    type_selector:
+      description: Você pode importar manualmente transações de CSVs ou de outros aplicativos financeiros
+        como Mint, Empower (anteriormente Personal Capital) ou Apple Card.
+      import_from_apple: Importar do Apple Card
+      import_from_csv: Nova importação do CSV
+      import_from_empower: Importar do Empower
+      import_from_mint: Importar do Mint
+      import_transactions: Importar transações
+      resume_latest_import: Continuar última importação
+      soon: Em breve
+      sources: Fontes
+    update:
+      import_updated: Importação atualizada
+    update_mappings:
+      column_mappings_saved: Mapeamentos de colunas salvos
+    upload_csv:
+      import_loaded: Arquivo CSV carregado

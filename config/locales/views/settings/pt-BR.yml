@@ -1,0 +1,107 @@
+---
+pt-BR:
+  settings:
+    hostings:
+      send_test_email:
+        error: 'Erro de configuração: Não foi possível enviar o email de teste'
+        missing_smtp_setting_error: Verifique se todas as configurações do SMTP estão preenchidas
+        success: Email de teste enviado com sucesso
+      show:
+        domain: Domínio do App
+        domain_placeholder: meudominio.com
+        email_sender: Remetente de Email
+        email_sender_placeholder: usuario@meudominio.com
+        general_settings_title: Configurações Gerais
+        page_title: Auto-Hospedagem
+        provider_settings:
+          title: Configurações do Provedor
+        render_deploy_hook_description: Insira a URL do hook de deploy fornecida pelo Render
+        render_deploy_hook_label: URL do Hook de Deploy do Render
+        render_deploy_hook_placeholder: https://api.render.com/deploy/srv-xyz...
+        smtp_settings:
+          description: Configure as configurações do servidor de email de saída para notificações e alertas
+          host: Host do SMTP
+          host_placeholder: smtp.gmail.com
+          password: Senha
+          password_placeholder: "*******"
+          port: Porta
+          port_placeholder: 587
+          send_test_email: Enviar Email de Teste
+          send_test_email_button: Enviar Email de Teste
+          send_test_email_description: Verifique as configurações do SMTP enviando um email de teste
+          title: Configuração de Email SMTP
+          username: Nome de Usuário
+          username_placeholder: username@gmail.com
+        upgrades:
+          description: Escolha como o seu aplicativo recebe atualizações
+          latest_commit:
+            description: Atualize automaticamente para o último commit (instável)
+            title: Último Commit
+          latest_release:
+            description: Atualize automaticamente para o lançamento mais recente (estável)
+            title: Último Lançamento
+          manual:
+            description: Você controla quando baixar e instalar atualizações
+            title: Manual
+          title: Atualização Automática
+      update:
+        render_deploy_hook_error: É necessário fornecer o hook de deploy do Render para habilitar as atualizações automáticas
+        success: Configurações atualizadas com sucesso.
+    nav:
+      accounts_label: Contas
+      billing_label: Faturamento
+      categories_label: Categorias
+      feedback_label: Feedback
+      general_section_title: Geral
+      imports_label: Importações
+      invite_label: Convidar amigos
+      merchants_label: Comerciantes
+      notifications_label: Notificações
+      other_section_title: Mais
+      preferences_label: Preferências
+      profile_label: Conta
+      rules_label: Regras
+      security_label: Segurança
+      self_hosting_label: Auto-Hospedagem
+      tags_label: Tags
+      transactions_section_title: Transações
+      whats_new_label: Novidades
+    nav_link_large:
+      next: Próximo
+      previous: Voltar
+    preferences:
+      show:
+        general_subtitle: Configure suas preferências
+        general_title: Geral
+        page_title: Preferências
+        theme_dark: Escuro
+        theme_light: Claro
+        theme_subtitle: Escolha um tema preferido para o aplicativo (em breve...)
+        theme_system: Sistema
+        theme_title: Tema
+      update:
+        success: Preferências atualizadas com sucesso.
+    profiles:
+      destroy:
+        success: Conta excluída com sucesso.
+      show:
+        add_member: Adicionar Membro
+        confirm_delete:
+          body: Tem certeza de que deseja excluir permanentemente sua conta? Essa ação é irreversível.
+          title: Excluir conta?
+        danger_zone_title: Zona de Perigo
+        delete_account: Excluir Conta
+        delete_account_warning: A exclusão da sua conta removerá permanentemente todos os seus dados e não poderá ser desfeita.
+        household_form_input_placeholder: Insira o nome do domicílio
+        household_form_label: Nome do Domicílio
+        household_subtitle: Convide membros da família, parceiros e outras pessoas. Os convidados podem fazer login no seu domicílio e acessar suas contas compartilhadas.
+        household_title: Domicílio
+        page_title: Conta
+        profile_image_choose: Escolher
+        profile_image_type: JPG, GIF ou PNG. Máx. 5MB.
+        profile_subtitle: Personalize como você aparece no Maybe
+        profile_title: Perfil
+        save: Salvar
+      update:
+        file_size_error: O tamanho do arquivo deve ser inferior a 5MB
+        success: Perfil atualizado com sucesso.

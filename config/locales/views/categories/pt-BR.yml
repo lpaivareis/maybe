@@ -1,0 +1,22 @@
+---
+pt-BR:
+  categories:
+    create:
+      success: Nova categoria de transação criada com sucesso
+    edit:
+      edit: Editar categoria
+    form:
+      create: Criar categoria
+      update: Atualizar
+    index:
+      categories: Categorias
+      new: Nova
+    menu:
+      loading: Carregando...
+    new:
+      new_category: Nova categoria
+    row:
+      delete: Excluir categoria
+      edit: Editar categoria
+    update:
+      success: Categoria de transação atualizada com sucesso

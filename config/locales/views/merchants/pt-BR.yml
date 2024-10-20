@@ -1,0 +1,29 @@
+---
+pt-BR:
+  merchants:
+    create:
+      success: Novo comerciante criado com sucesso
+    destroy:
+      success: Comerciante excluído com sucesso
+    edit:
+      title: Editar comerciante
+    form:
+      name_placeholder: Nome do comerciante
+      submit_create: Adicionar comerciante
+      submit_edit: Atualizar
+    index:
+      empty: Ainda não há comerciantes
+      new_long: Novo comerciante
+      new_short: Novo
+      title: Comerciantes
+    list:
+      confirm_accept: Excluir comerciante
+      confirm_body: Tem certeza de que deseja excluir este comerciante? A remoção deste comerciante
+        desvinculará todas as transações associadas e poderá afetar seus relatórios.
+      confirm_title: Excluir comerciante?
+      delete: Excluir comerciante
+      edit: Editar comerciante
+    new:
+      title: Novo comerciante
+    update:
+      success: Comerciante atualizado com sucesso

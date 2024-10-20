@@ -1,0 +1,68 @@
+---
+pt-BR:
+  accounts:
+    create:
+      success: Nova conta criada com sucesso
+    destroy:
+      success: Conta excluída com sucesso
+    edit:
+      balance: Saldo
+      edit: Editar %{account}
+      institution: Instituição financeira
+      name: Nome
+      ungrouped: "(nenhum)"
+    empty:
+      empty_message: Adicione uma conta através de conexão, importação ou inserção manual.
+      new_account: Nova conta
+      no_accounts: Ainda não há contas
+    header:
+      accounts: Contas
+      manage: Gerenciar contas
+      new: Nova conta
+    index:
+      accounts: Contas
+      add_institution: Adicionar instituição
+      new_account: Nova conta
+    institution_accounts:
+      add_account_to_institution: Adicionar nova conta
+      confirm_accept: Excluir instituição
+      confirm_body: Não se preocupe, nenhuma das contas dentro desta instituição será afetada por esta exclusão. As contas serão desagrupadas e todos os dados históricos permanecerão intactos.
+      confirm_title: Excluir instituição financeira?
+      delete: Excluir instituição
+      edit: Editar instituição
+      new_account: Adicionar conta
+    institutionless_accounts:
+      other_accounts: Outras contas
+    new:
+      balance: Saldo atual
+      institution: Instituição financeira
+      name:
+        label: Nome da conta
+        placeholder: Exemplo de nome de conta
+      optional_start_balance_message: Adicione um saldo inicial para esta conta
+      select_accountable_type: O que você gostaria de adicionar?
+      start_balance: Saldo inicial (opcional)
+      start_date: Data de início (opcional)
+      title: Adicionar uma conta
+      ungrouped: "(nenhum)"
+    show:
+      cash: Dinheiro
+      confirm_accept: Excluir "%{name}"
+      confirm_body_html: "<p>Ao excluir esta conta, você apagará seu histórico de valores, afetando vários aspectos de sua conta geral. Essa ação terá um impacto direto nos cálculos de seu patrimônio líquido e nos gráficos da conta.</p><br /> <p>Após a exclusão, não será possível restaurar as informações da conta, pois você precisará adicioná-la como uma nova conta.</p>"
+      confirm_title: Excluir conta?
+      edit: Editar
+      holdings: Investimentos
+      import: Importar transações
+      no_change: Sem alterações
+      sync_message_missing_rates: Como as taxas de câmbio não foram sincronizadas, os gráficos de saldo podem não refletir valores precisos.
+      sync_message_unknown_error: Ocorreu um erro durante a sincronização.
+      total_value: Valor total
+      trades: Transações
+      transactions: Transações
+      value: Valor
+    summary:
+      new: Nova conta
+    sync_all:
+      success: Contas enfileiradas para sincronização com sucesso.
+    update:
+      success: Conta atualizada

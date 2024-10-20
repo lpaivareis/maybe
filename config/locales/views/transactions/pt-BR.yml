@@ -1,0 +1,48 @@
+---
+pt-BR:
+  transactions:
+    bulk_delete:
+      success: "%{count} transações excluídas"
+    bulk_edit:
+      cancel: Cancelar
+      category_label: Categoria
+      category_placeholder: Selecione uma categoria
+      date_label: Data
+      details: Detalhes
+      merchant_label: Comerciante
+      merchant_placeholder: Selecione um comerciante
+      note_label: Notas
+      note_placeholder: Insira uma nota que será aplicada às transações selecionadas
+      overview: Visão geral
+      save: Salvar
+    bulk_update:
+      success: "%{count} transações atualizadas"
+    create:
+      success: Nova transação criada com sucesso
+    form:
+      account: Conta
+      account_prompt: Selecione uma conta
+      amount: Valor
+      category: Categoria
+      category_prompt: Selecione uma categoria
+      date: Data
+      description: Descrição
+      description_placeholder: Descreva a transação
+      expense: Despesa
+      income: Receita
+      submit: Adicionar transação
+      transfer: Transferência
+    header:
+      edit_categories: Editar categorias
+      edit_imports: Editar importações
+      import: Importar
+    index:
+      transaction: transação
+    mark_transfers:
+      success: Marcado como transferência
+    new:
+      new_transaction: Nova transação
+    pagination:
+      rows_per_page: Linhas por página
+    unmark_transfers:
+      success: Transferência removida

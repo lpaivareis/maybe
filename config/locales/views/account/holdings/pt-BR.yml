@@ -1,0 +1,21 @@
+---
+pt-BR:
+  account:
+    holdings:
+      holding:
+        per_share: por ação
+        shares: "%{qty} ações"
+      index:
+        cost: custo
+        holdings: Posições
+        name: nome
+        needs_sync: Sua conta precisa sincronizar os preços mais recentes para calcular esta carteira
+        portfolio: 
+        new_holding: Nova posição
+        no_holdings: Nenhuma posição para exibir.
+        return: retorno total
+        weight: peso
+      show:
+        history: Histórico
+        overview: Visão geral
+        settings: Configurações

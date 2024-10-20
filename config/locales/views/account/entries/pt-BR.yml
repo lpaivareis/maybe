@@ -1,0 +1,86 @@
+---
+pt-BR:
+  account:
+    entries:
+      create:
+        success: "%{name} criado"
+      destroy:
+        success: Entrada excluída
+      empty:
+        description: Tente adicionar uma entrada, editar filtros ou refinar sua pesquisa
+        title: Nenhuma entrada encontrada
+      entryables:
+        trade:
+          show:
+            overview: Visão geral
+          trade:
+            buy: Comprar
+            sell: Vender
+        transaction:
+          selection_bar:
+            mark_transfers: Marcar como transferências?
+            mark_transfers_confirm: Marcar como transferências
+            mark_transfers_message: Ao marcar as transações como transferências, elas não serão mais incluídas nos cálculos de renda ou gastos.
+          show:
+            account_label: Conta
+            account_placeholder: Selecione uma conta
+            additional: Adicional
+            amount: Valor
+            category_label: Categoria
+            category_placeholder: Selecione uma categoria
+            date_label: Data
+            delete: Excluir
+            delete_subtitle: Isso exclui permanentemente a transação, afeta seus saldos históricos e não pode ser desfeito.
+            delete_title: Excluir transação
+            exclude_subtitle: Isso exclui a transação de qualquer recurso ou análise do aplicativo.
+            exclude_title: Excluir transação
+            merchant_label: Estabelecimento
+            merchant_placeholder: Selecione um estabelecimento
+            name_label: Nome
+            nature: Tipo de transação
+            note_label: Notas
+            note_placeholder: Insira uma nota
+            overview: Visão geral
+            settings: Configurações
+            tags_label: Selecione uma ou mais tags
+          transaction:
+            deposit: Depósito
+            remove_transfer: Remover transferência
+            remove_transfer_body: Isso removerá a transferência desta transação
+            remove_transfer_confirm: Confirmar
+            withdrawal: Saque
+        valuation:
+          form:
+            cancel: Cancelar
+          valuation:
+            confirm_accept: Excluir entrada
+            confirm_body_html: "<p>A exclusão desta entrada removerá ela do histórico da conta, o que afetará diferentes partes da sua conta. Isso inclui o patrimônio líquido e os gráficos da conta.</p></br><p>A única maneira de adicionar esta entrada novamente é inserindo-a manualmente através de uma nova entrada</p>"
+            confirm_title: Excluir entrada?
+            delete_entry: Excluir entrada
+            edit_entry: Editar entrada
+            no_change: Sem alteração
+            start_balance: Saldo inicial
+            value_update: Atualização de valor
+      loading:
+        loading: Carregando entradas...
+      trades:
+        amount: Valor
+        new: Nova transação
+        no_trades: Nenhuma transação para esta conta ainda.
+        trade: transação
+        trades: Transações
+        type: Tipo
+      transactions:
+        new: Nova transação
+        no_transactions: Nenhuma transação para esta conta ainda.
+        transaction: transação
+        transactions: Transações
+      update:
+        success: Entrada atualizada
+      valuations:
+        change: mudança
+        date: data
+        new_entry: Nova entrada
+        no_valuations: Nenhuma avaliação para esta conta ainda.
+        valuations: Histórico de valores
+        value: valor
